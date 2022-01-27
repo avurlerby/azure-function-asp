@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/afolabiomotosho/Desktop/mslearn-tailspin-spacegame-web-azure-functions/Tailspin.SpaceGame.LeaderboardFunction/Tailspin.SpaceGame.LeaderboardFunction.csproj": {}
+  },
+  "projects": {
+    "/Users/afolabiomotosho/Desktop/mslearn-tailspin-spacegame-web-azure-functions/Tailspin.SpaceGame.LeaderboardFunction/Tailspin.SpaceGame.LeaderboardFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afolabiomotosho/Desktop/mslearn-tailspin-spacegame-web-azure-functions/Tailspin.SpaceGame.LeaderboardFunction/Tailspin.SpaceGame.LeaderboardFunction.csproj",
+        "projectName": "Tailspin.SpaceGame.LeaderboardFunction",
+        "projectPath": "/Users/afolabiomotosho/Desktop/mslearn-tailspin-spacegame-web-azure-functions/Tailspin.SpaceGame.LeaderboardFunction/Tailspin.SpaceGame.LeaderboardFunction.csproj",
+        "packagesPath": "/Users/afolabiomotosho/.nuget/packages/",
+        "outputPath": "/Users/afolabiomotosho/Desktop/mslearn-tailspin-spacegame-web-azure-functions/Tailspin.SpaceGame.LeaderboardFunction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/afolabiomotosho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
